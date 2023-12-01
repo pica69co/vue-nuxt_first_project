@@ -1,6 +1,9 @@
 <template>
   <div>
-    <h2>Welcome to the best corny dad jokes app on the web</h2>
+    <h2 class="title">
+      Welcome to the <span class="span">Best</span> corny Dad Jokes app on the
+      web
+    </h2>
   </div>
 </template>
 
@@ -20,3 +23,15 @@ export default {
   },
 };
 </script>
+<style>
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: #33305080;
+  font-weight: bold;
+}
+.span {
+  color: blue;
+  font-size: 2.5rem;
+}
+</style>

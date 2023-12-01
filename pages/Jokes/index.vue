@@ -49,6 +49,10 @@ export default {
           `https://icanhazdadjoke.com/search?term=${text}`,
           config
         );
+        if (res.data.results.length === 0) {
+          alert("No jokes found! Try again with other search term.");
+          return;
+        }
         this.jokes = res.data.results;
       } catch (error) {
         console.log(error);
