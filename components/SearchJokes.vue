@@ -32,7 +32,7 @@ export default {
   background: #333050;
   color: #fff;
   border-radius: 20%;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   cursor: pointer;
 }
 </style>
